@@ -1,0 +1,120 @@
+header{
+	
+}
+
+body{
+	
+ background-color: #c9d6bd;
+}
+#Wrapper{
+	width: 100%;
+	max-width: 720px;
+	margin-right: 20%; 
+    margin-left: 20%;
+
+
+}
+nav{
+	background-color: #6ad014;
+	padding: 2% 0% 2% 0%;
+	width: 155%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}	
+.contentishe{
+	display: table;
+
+}
+
+#infimg{
+float: right;
+}
+#info{
+	margin-left: : 40%;
+	width: 155%;
+	padding: 10% 0% 0% 10%;
+}
+.scrin-wrapper {/*блокок с продуктом */
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+@media only screen and (min-width: 450px) {
+	.scrin-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.scrin-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.pscrin-wrapper {
+		width: 25%;
+	}
+}
+
+	
+.scrin {/*описание продукта */
+	display: block;
+	border: 1px solid #6ad014;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 300px;
+	width:300px ;
+	border-image: unset;
+	}
+	#tab{
+		width: 155%;
+	}
+	footer{
+		width: 155%;
+		background-color: #6ad014;
+		padding: 10% 0% 10% 0%;
+	}
+	#productsite{
+		display: block;
+	border: 1px solid #6ad014;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 200px;
+	width:155% ;
+	display: table;
+	}
+	#prodtxt{
+		display: table-cell;
+		padding: auto;
+		vertical-align: top
+
+	}
+	#prodimg{
+		display: table-cell;
+	}
+	#zaka{
+		display: table-cell;
+
+	}
+	#zak2{
+		display: table-cell;
+		padding: 0% 10% 0% 10% ;
+	}
+	.img1{
+		width: 100%;
+		float: right;
+	}
